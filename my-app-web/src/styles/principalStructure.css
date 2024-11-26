@@ -1,0 +1,74 @@
+.private-structure {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  overflow-y: hidden;
+}
+
+.private-structure-aside {
+  box-sizing: border-box;
+  border-right: 1px solid rgb(225, 225, 225);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.aside-option {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  color: #444444;
+  box-sizing: border-box;
+  padding: 3px 0px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.aside-option:hover {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  color: #000000;
+  box-sizing: border-box;
+  padding: 3px 0px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.aside-option-cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  color: red;
+}
+
+.aside-icon {
+  font-size: 25px;
+}
+
+.aside-user-avatar {
+  /*PROPIEDADES*/
+}
+
+.aside-user-icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.notification-profile-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #80808083;
+}

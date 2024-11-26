@@ -1,0 +1,215 @@
+.profile-screen {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.profile-screen-header {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+.profile-screen-profile-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 1px solid #93939351;
+  background-color: white;
+  position: absolute;
+  top: 135px;
+}
+
+.profile-screen-info-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px 45px;
+  /*padding-top: 70px;*/
+  border-bottom: 1px solid rgba(147, 147, 147, 0.319);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-screen-info-box {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+
+.profile-screen-info-box-name {
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+
+.profile-screen-info-box-username {
+  font-size: 16px;
+  color: #2d2d2d;
+}
+
+.profile-screen-info-box-description {
+  font-size: 14px;
+  color: #575757;
+}
+
+.profile-screen-info-box-data-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
+.profile-screen-info-box-data {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+}
+
+.profile-screen-info-box-data:nth-child(1) {
+  cursor: pointer;
+}
+
+.profile-screen-info-box-data-label {
+  font-size: 14px;
+  color: rgb(87, 87, 87);
+}
+
+.profile-screen-info-box-data-value {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.profile-screen-feed-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 5px;
+}
+
+.profile-screen-post-container {
+  border: 1px solid rgba(147, 147, 147, 0.319);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.profile-screen-post-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-screen-post-header-user-data {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.profile-screen-post-header-user-data-img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #2575fc;
+}
+
+.profile-screen-post-header-user-data-username-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.profile-screen-post-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.profile-screen-post-content {
+  font-size: 15px;
+  color: #2d2d2d;
+}
+
+.profile-screen-post-footer-actions-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.profile-screen-post-footer-action-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile-screen-post-coment-new {
+  width: "100%";
+  box-sizing: border-box;
+  border: 1px solid rgba(147, 147, 147, 0.319);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 10px;
+  gap: 10px;
+}
+
+.profile-screen-post-coment-new-img {
+  height: 35px;
+  width: 35px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.profile-screen-post-comments-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.profile-screen-post-comment {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(147, 147, 147, 0.319);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 14px;
+  color: #575757;
+  padding: 15px 10px;
+}
+
+.profile-screen-post-comment-data {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.profile-screen-post-comment-more-coments-span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #6a11cb;
+  cursor: pointer;
+}

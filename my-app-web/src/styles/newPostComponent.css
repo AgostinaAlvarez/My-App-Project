@@ -1,0 +1,13 @@
+.new-post-container {
+  width: 100%;
+  border: 1px solid grey;
+}
+
+/*
+los de otros:
+`http://localhost:8000/posts/get_by_user_id?userId=${userData.userId}&page=1&limit=10`
+
+los mios:
+`http://localhost:8000/posts/get?page=1&limit=10`
+
+*/

@@ -1,0 +1,115 @@
+.home-scren-content-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 290px;
+  box-sizing: border-box;
+}
+
+.home-screen-profile-aside {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-left: 1px solid rgb(225, 225, 225);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 13px;
+  gap: 10px;
+}
+
+.home-screen-profile-aside-info-container {
+  width: 100%;
+  cursor: pointer;
+  /*
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
+  */
+  border: 1px solid #93939351;
+  box-sizing: border-box;
+  padding: 20px 0px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.home-screen-profile-aside-profile-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  box-sizing: border-box;
+  border: 1px solid #93939351;
+  margin-bottom: 15px;
+}
+
+.home-screen-profile-aside-profile-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.home-screen-profile-aside-profile-username {
+  font-weight: 400;
+  font-size: 13px;
+  color: rgb(45, 45, 45);
+}
+
+.home-screen-profile-aside-profile-data-container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 15px;
+}
+
+.home-screen-profile-aside-profile-data-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.home-screen-profile-aside-profile-data-label {
+  font-size: 13px;
+}
+
+.home-screen-profile-aside-profile-data-value {
+  font-weight: 600;
+}
+
+.home-screen-feed-content {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  padding-bottom: 30px;
+}
+
+.home-screen-feed {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
